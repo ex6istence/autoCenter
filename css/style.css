@@ -239,6 +239,11 @@ a {
 
 .about__list {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 51px;
+    counter-reset: item-count;
 }
 
 .about__item {
@@ -247,17 +252,27 @@ a {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-
+    width: 48%;
+    position: relative;
+    padding-top: 70px;
 }
 
-.about__number {
+.about__item::before {
+    counter-increment: item-count;
+    content: '0'counter(item-count);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 100px;
-    line-height: 117px;
-    text-align: center;
+    line-height: 1;
     color: #E7E7E7;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.about__item p {
+    z-index: 10;
+    position: relative;
 }
 
 .benefits {
