@@ -1,0 +1,373 @@
+@media (max-width: 960px) {
+    .container {
+        max-width: 93.5%;
+    }
+
+    .logo {
+        max-width: 181px;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 22%;
+    }
+
+    .hero__title {
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 49px;
+    }
+
+    .hero__main {
+        padding-left: 8%;
+    }
+
+    .title {
+        font-size: 42px;
+    }
+
+    .about__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    }
+
+    .about__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    }
+
+    .about__item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    }
+
+    .benefits__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    }
+
+    .benefits__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    }
+
+    .advantage__desc{
+        font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    }
+    .benefits__item{
+        height: 118px;
+        width: 167px;   
+    }
+    .benefits__svg{
+        width: 25px;
+        height: 25px;
+        padding-top: 19px;
+        padding-right: 71px;
+        padding-left: 71px;
+    }
+
+    .services__title{
+        font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+    }
+
+    .services__subtitle{
+        font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+    }
+
+    .services__item{
+        height: 210px;
+        width: 210px;
+    }
+    .services__list {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 10px;
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .hero__title {
+        font-size: 42px;
+    }
+
+    .hero__subtitle {
+        font-size: 22px;
+    }
+
+    .logo {
+        max-width: 142px;
+    }
+
+    .header .nav,
+    .header__contact {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 170px;
+        position: relative;
+    }
+
+    .hero::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+    }
+
+    .container__btn {
+        flex-wrap: wrap;
+        row-gap: 14px;
+    }
+
+    .hero__advantage {
+        flex: 0 1 221px;
+        font-size: 14px;
+        padding: 13px;
+    }
+
+
+    .advantage__img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .about__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        }
+    
+        .about__subtitle{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        }
+    
+        .about__item{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        }
+    
+        .benefits__title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        }
+    
+        .benefits__subtitle{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        }
+
+    
+        .advantage__desc{
+            font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        }
+        .benefits__item{
+            height: 134x;
+            width: 123px; 
+        }
+        .benefits__svg{
+            width: 20px;
+            height: 20px;
+            padding-top: 16px;
+            padding-right: 57px;
+            padding-left: 52px;
+        }
+    
+        .services__title{
+            font-weight: 700;
+    font-size: 38px;
+    line-height: 35px;
+    text-align: center;
+        }
+    
+        .services__subtitle{
+            font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+        }
+    
+        .services__item{
+            height: 168px;
+            width: 168px;
+        }
+        .services__list {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 10px;
+        }
+}
+@media (max-width:480px) {
+    .container {
+        max-width: 90.6%;
+    }
+
+    .title {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .hero__subtitle {
+        font-size: 14px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 60px;
+    }
+
+    .hero__call-to-action{
+        font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+    }
+
+    .hero__advantage {
+        flex: 0 1 auto;
+        display: flex;
+        padding:17px;
+        margin-top: 10px;
+        align-items: center;
+        background-color: #fff;
+        color: black;
+        text-align: left;
+    }
+
+    .advantage__img {
+        margin-right: 28px;
+        flex-shrink: 0;
+    }
+
+    .advantage__img path {
+        fill: black;
+    }
+
+    .about__title {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        }
+    
+        .about__subtitle{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        }
+    
+        .about__item{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 11px;
+        }
+    
+        .benefits__title{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        }
+    
+        .benefits__subtitle{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        }
+
+        .benefits__list{
+            flex: 0 1 auto;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .advantage__desc{
+            font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: left;
+        }
+        .benefits__item{
+            height: 56px;
+            width: 420px; 
+            margin-top: 10px;
+        }
+        .benefits__svg{
+            flex-shrink: 0;
+            margin-right: 28px;
+        }
+    
+        .services__title{
+            font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+        }
+    
+        .services__subtitle{
+            font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+        }
+    
+        .services__item{
+            height: 160px;
+            width: 160px;
+        }
+        .services__list {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+}
